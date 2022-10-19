@@ -8,70 +8,25 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <title>Home</title>
-  <style>
-    body {
-      margin: 0;
-      background-color: aquamarine;
-    }
-
-    nav {
-
-      padding: 0 2mm;
-    }
-
-    a li.nav-item {
-      font-weight: bolder;
-      font-size: 5mm;
-    }
-
-    .navbar-ul2 li {
-      padding-left: .2cm;
-    }
-
-    footer {
-      background-color: black;
-      text-align: center;
-      color: white;
-    }
-
-    footer div {
-      padding: 3mm 0;
-    }
-
-    footer p {
-      margin-bottom: 3mm;
-    }
-  </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg ">
-    <div class="container-fluid">
-      <ul class="navbar-nav">
-        <a href="" class="nav-link">
-          <li class="nav-item">Home</li>
-        </a>
-        <a href="" class="nav-link">
-          <li class="nav-item">Games</li>
-        </a>
-        <a href="" class="nav-link">
-          <li class="nav-item">Feedback</li>
-        </a>
-        <a href="" class="nav-link">
-          <li class="nav-item">Team</li>
-        </a>
-      </ul>
-      <ul class="navbar-nav navbar-ul2">
-        <a href="" class="nav-link">
-          <li class="nav-item">Login</li>
-        </a>
-        <a href="" class="nav-link">
-          <li class="nav-item">Sign Up</li>
-        </a>
-      </ul>
-    </div>
-  </nav>
+  <!--Navigation bar-->
+
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+  
   <div id="scrooling content">
 
   </div>

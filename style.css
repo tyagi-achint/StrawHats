@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: aquamarine;
+  }
+
+  nav {
+
+    padding: 0 2mm;
+  }
+
+  a li.nav-item {
+    font-weight: bolder;
+    font-size: 5mm;
+  }
+
+  .navbar-ul2 li {
+    padding-left: .2cm;
+  }
+  footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+  }
+
+  footer div {
+    padding: 3mm 0;
+  }
+
+  footer p {
+    margin-bottom: 3mm;
+  }
