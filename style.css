@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: aquamarine;
   }
-
+/* **************Navbar**************** */
   nav {
 
     padding: 0 2mm;
@@ -16,6 +16,7 @@ body {
   .navbar-ul2 li {
     padding-left: .2cm;
   }
+  /* ***********Footer**************************** */
   footer {
     background-color: black;
     text-align: center;
