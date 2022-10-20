@@ -1,16 +1,19 @@
 body {
     margin: 0;
-    background-color: aquamarine;
+    background-color: #EDEDED;
   }
 /* **************Navbar**************** */
   nav {
+    background-color: #2C3333;
+    
 
-    padding: 0 2mm;
+    padding: 1mm 2mm 1mm 3mm ;
   }
 
   a li.nav-item {
     font-weight: bolder;
     font-size: 5mm;
+    color: white;
   }
 
   .navbar-ul2 li {
@@ -18,7 +21,7 @@ body {
   }
   /* ***********Footer**************************** */
   footer {
-    background-color: black;
+    background-color: #06283D;
     text-align: center;
     color: white;
   }

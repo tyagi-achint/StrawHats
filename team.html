@@ -20,9 +20,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
+    <!--Navigation bar-->
+
+  <div id="nav-placeholder"></div>
+
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("nav.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
     <div id="team">
       <h1>Meet the Developers...</h1>
       <div class="container-fluid">
@@ -38,6 +48,7 @@
                 <h5>Frontend Designer </h5>
                 <a href=""
                   ><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                  
                 </a>
               </div>
             </div>
