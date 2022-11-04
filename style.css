@@ -55,9 +55,7 @@ body {
   #more-games a h5:hover {
     text-shadow:-2px 0px red;
   }
-  #more-games .col-md-2 {
-   padding-bottom: 4mm;
-  }
+ 
 
 
   /* --------------------------------------Game-page-------------------------------- */
