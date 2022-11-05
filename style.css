@@ -189,3 +189,109 @@ td:nth-of-type(1) {
 td {
   padding: 2mm 5mm 0 5mm;
 }
+
+
+/* --------------------------------------Feedback-page-------------------------------- */
+
+#feedback {
+  background-color: rgb(177, 222, 232);
+  margin: 8mm 1cm;
+  border: noen;
+  border-radius: 7mm;
+}
+
+#feedback .col-md-6 img {
+  margin: 2.5cm 2cm 0 3.5cm;
+}
+
+#feedback input {
+  margin: 0 0 1mm 0;
+  display: block;
+  width: 60%;
+  background: #f7f7f7;
+  font-family: "Fredoka One", cursive;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666;
+  border-radius: 5mm;
+  padding: 2mm;
+  border: none;
+  outline: none;
+}
+
+#feedback textarea#subject {
+  font-family: "Fredoka One", cursive;
+  height: 150px;
+  width: 60%;
+  background: #f7f7f7;
+  color: #666;
+  border-radius: 5mm;
+  padding: 2mm;
+  border: none;
+  outline: none;
+}
+
+#feedback #submit,
+#feedback #reset {
+  width: 25%;
+  display: inline;
+  margin: 5mm 4mm 8mm 4mm;
+}
+
+#feedback #submit:hover,
+#feedback #reset:hover {
+  background-color: #666;
+  color: #f7f7f7;
+  box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.2);
+}
+
+#feedback h2 {
+  font-family: "Fredoka One", cursive;
+  margin: 1cm 0 7mm;
+  color: #666;
+}
+
+#rating label span {
+  margin: 0 7mm 0 7mm;
+  color: #666;
+  font-size: 1cm;
+}
+
+#rating input {
+  display: inline;
+  width: auto;
+  margin: 0 8mm 0 9mm;
+}
+
+#rating input.radio {
+  height: 1cm;
+  width: 0.7cm;
+}
+
+#rating input.radio#Angry,
+#rating input.radio#Normal,
+#rating input.radio#Happy {
+  accent-color: lightslategrey;
+  cursor: pointer;
+}
+
+#rating input.radio#Angry:checked ~ label span#angry,
+label span#angry:hover {
+  color: red;
+}
+
+#rating input.radio#Happy:checked ~ label span#happy,
+label span#happy:hover {
+  color: #54b435;
+}
+
+#rating input.radio#Normal:checked ~ label span#normal,
+label span#normal:hover {
+  color: #fdff00;
+}
+
+#feedback .col-md-6 img:hover {
+  will-change: transform;
+  transform: perspective(300px) rotateX(1.38deg) rotateY(-4.01deg)
+    scale3d(1.1, 1.1, 1.1);
+}
