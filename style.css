@@ -1,130 +1,191 @@
 body {
-    margin: 0;
-    background-color: #fff;
-  }
-/* **************Navbar**************** */
-  nav {
-    /* background-color: #A9A9A9; */
-    /* background-color: #D7CEC7 ; */
-    background-color: #f5f5f5;
-    padding: 1mm 2mm 1mm 3mm ;
-    border-bottom: #d7d7d7 .1mm solid;
-  }
-
-  a li.nav-item {
-    font-weight: bolder;
-    font-size: 1.5rem;
-    color: black;
-    font-family: 'Acme', sans-serif;
-
-  
-
-  }
-
-  .navbar-ul2 li {
-    padding-left: .2cm;
-  }
-  /* ***********Footer**************************** */
-  footer {
-    background-color: #f5f5f5;
-    text-align: center;
-    color: black;
-    font-weight: bolder;
-    border-top: #d7d7d7 .1mm solid;
-  }
-
-  footer div {
-    padding: 3mm 0;
-  }
-
-  footer p {
-    margin-bottom: .1mm;
-
-  }
- /* --------------------------------------Home-page-------------------------------- */
-  #scrooling_content {
-    text-align: center;
-    padding: 4cm 0;
-  }
-  #scrooling_content h1 {
-    font-size: 5cm;
-  }
-  #home_games .col-md-4 {
-    text-align: center;
-  }
-  #more-games {
-    text-align: right;
-    padding: 0 3mm 1cm 0;
-  }
-  #more-games a {
-    text-decoration: none;
-    color: black;
-  }
-  #more-games a h5:hover {
-    text-shadow:-2px 0px red;
-  }
- 
-
-
-  /* --------------------------------------Game-page-------------------------------- */
-
-  #games{
-    margin-top: 5mm;
+  margin: 0;
+  background-color: #fff;
 }
-#games a{
-    text-decoration: none;
-    color:black
-  }
-  #games a h4{
-    text-align: center;
-    padding: 3mm 0;
-  }
- 
-  #games .col-md-4{
-    margin: 1cm 0;
-    text-align: center;
-  }
-  /* --------------------------------------TEAM-page-------------------------------- */
+/* **************Navbar**************** */
+nav {
+  /* background-color: #A9A9A9; */
+  /* background-color: #D7CEC7 ; */
+  background-color: #f5f5f5;
+  padding: 1mm 2mm 1mm 3mm;
+  border-bottom: #d7d7d7 0.1mm solid;
+}
 
+a li.nav-item {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: black;
+  font-family: "Acme", sans-serif;
+}
+a li.nav-item:hover {
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
 
-  #team .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
-    width: 67%;
-    margin: auto;
-    padding: 4mm 0;
-  }
- #team div.row {
-    margin: 7mm 0;
-  }
- #team .card:hover {
-    box-shadow: 1px 1px 10px 6px  rgba(0, 0, 0, 0.2);
-  }
+.navbar-ul2 li {
+  padding-left: 0.2cm;
+}
+/* ***********Footer**************************** */
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  border-top: #d7d7d7 0.1mm solid;
+}
 
- #team .container {
-    padding: 2px 16px;
-    text-align: center;
-  }
- #team img {
-    height: 7cm;
-    width: 6cm;
-    margin: auto;
-  }
- #team a {
-    text-decoration: none;
-    color: black;
-    font-size: 7mm;
-  }
-  #team h5{
-    font-family: 'Carter One', cursive;
+footer div {
+  padding: 3mm 0;
+}
 
+footer p {
+  margin-bottom: 0.1mm;
+}
+/* --------------------------------------Home-page-------------------------------- */
+#scrooling_content {
+  text-align: center;
+  padding: 4cm 0;
+}
+#scrooling_content h1 {
+  font-size: 5cm;
+}
+#home_games .col-md-4 {
+  text-align: center;
+}
+#home_games .col-md-4 a img {
+  height: 242px;
+  width: 236px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+#home_games .col-md-4 a img:hover {
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+#more-games {
+  text-align: right;
+  padding: 0 3mm 1cm 0;
+}
+#more-games a {
+  text-decoration: none;
+  color: black;
+  font-family: "Acme", sans-serif;
+}
+#more-games a h5:hover {
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
 
-  }
-  #team h1{
-    font-family: 'Fredoka One', cursive;
-    margin: 1cm 5mm;
-  }
-  #team h4{
-    font-family: 'Acme', sans-serif;
-    padding: 3mm 0 0 0;
-  }
+/* --------------------------------------Game-page-------------------------------- */
+
+#games .col-md-4 a img {
+  height: 242px;
+  width: 236px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+#games .col-md-4 a img:hover {
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+#games {
+  margin-top: 5mm;
+}
+#games a {
+  text-decoration: none;
+  color: black;
+}
+#games a h4 {
+  text-align: center;
+  padding: 3mm 0;
+  font-family: "Carter One", cursive;
+}
+#games a h4:hover {
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#games .col-md-4 {
+  margin: 1cm 0;
+  text-align: center;
+}
+/* --------------------------------------TEAM-page-------------------------------- */
+
+#team .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  width: 67%;
+  margin: auto;
+  padding: 4mm 0;
+}
+#team div.row {
+  margin: 7mm 0;
+}
+#team .card:hover {
+  box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.2);
+}
+
+#team .container {
+  padding: 2px 16px;
+  text-align: center;
+}
+#team img {
+  height: 7cm;
+  width: 6cm;
+  margin: auto;
+}
+#team a {
+  text-decoration: none;
+  color: black;
+  font-size: 7mm;
+}
+#team h5 {
+  font-family: "Carter One", cursive;
+}
+#team h1 {
+  font-family: "Fredoka One", cursive;
+  margin: 1cm 5mm;
+}
+#team h4 {
+  font-family: "Acme", sans-serif;
+  padding: 3mm 0 0 0;
+}
+
+/* --------------------------------------Score-page-------------------------------- */
+tr {
+  border-bottom: 0.1mm solid black;
+}
+
+th {
+  background-color: #bfa797;
+  font-size: xx-large;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  color: black;
+}
+
+table {
+  margin: 7mm auto;
+  min-width: 1100px;
+  font-family: "Arima", cursive;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#score_h1 {
+  margin: 5mm 0 0 3mm;
+  font-family: "Fredoka One", cursive;
+  font-size: 4rem;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #f7f7f7;
+  color: #562b08;
+}
+
+#s_no {
+  text-align: left;
+  padding-left: 3mm;
+}
+
+td:nth-of-type(1) {
+  text-align: left;
+  padding-left: 3mm;
+}
+
+td {
+  padding: 2mm 5mm 0 5mm;
+}
