@@ -1,7 +1,6 @@
 import turtle
 import time
 import random
-import pygame
 #Setting Screen
 wn = turtle.Screen()
 wn.title("Snake Game By StrawHats")
