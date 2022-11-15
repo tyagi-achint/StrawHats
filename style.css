@@ -156,21 +156,33 @@
   
   th {
     background-color: #bfa797;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: "Edu NSW ACT Foundation", cursive;
     color: black;
   }
-  
+  #Sudoku th{
+    background-color: #A0E4CB;
+  }
+  #ColourMemory th{
+    background-color: #D58BDD;
+  }
+  .game_heading{
+    text-align: center;
+    font-weight: bolder;
+    border: solid;
+    margin: 0 2mm;
+    background-color: #BCCEF8;
+  }
   table {
     margin: 7mm auto;
-    min-width: 1100px;
+    min-width: 90%;
     font-family: "Arima", cursive;
     font-size: larger;
     font-weight: bold;
   }
   
   #score_h1 {
-    margin: 5mm 0 0 3mm;
+    margin: 5mm 0 5mm 3mm;
     font-family: "Fredoka One", cursive;
     font-size: 4rem;
   }
