@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!--head bar-->
+    <div id="head-placeholder"></div>
+    <script>
+      $(function () {
+        $("#head-placeholder").load("head.html");
+      });
+    </script>
+    <!--end of head bar-->
+    <title>Home</title>
+
+  </head>
+
+  <body>
+    <!--Error Tab-->
+ 
+<div id="error_page"></div>
+
+<script>
+  $(function () {
+    $("#error_page").load("error.html");
+  });
+</script>
+<!--end of Error Tab-->
+<div id="normalbody">
+    <!--Navigation bar-->
+
+    <div id="nav-placeholder"></div>
+
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
+
+    <div id="scrooling_content">
+
+      <h1>Bored!!!</h1>
+      <h5>Playing Simple & Small Games can help Sometime...😉</h5>
+    </div>
+    <div id="home_games">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-2"></div>
+          <div class="col-12 col-md-4">
+            <a href="Colour_game/index.html"  target="_blank"
+              ><img
+                src="colour_game.jpg"
+                alt="Colour_Game"
+                height="90%"
+                width="60%"
+            /><h4>Colour Game</h4></a>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <a href="Snake/index.html"
+              ><img
+                src="snake.jpg"
+                alt="Snake_Game"
+                height="90%"
+                width="60%"
+            /> <h4>Snake</h4> </a>
+          </div>
+
+          <div class="col-12 col-md-2"></div>
+        </div>
+      </div>
+    </div>
+    <div id="more-games">
+      <div class="row">
+        <div class="col-12 col-md-10"></div>
+        <div class="col-12 col-md-2">
+      <a href="games.html"><b><h5>More Games <i class="fas fa-arrow-right"></i></h5></b>
+        
+      </a>
+    </div>
+  </div>
+  </div>
+    <!--Footer bar-->
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+      $(function () {
+        $("#footer-placeholder").load("footer.html");
+      });
+    </script>
+    <!--end of Footer bar-->
+    </div>
+  </body>
+</html>

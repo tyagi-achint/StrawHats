@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!--head bar-->
+    <div id="head-placeholder"></div>
+    <script>
+      $(function () {
+        $("#head-placeholder").load("head.html");
+      });
+    </script>
+    <!--end of head bar-->
+    <title>Highscore</title>
+  </head>
+
+  <body>
+    <!--Error Tab-->
+ 
+<div id="error_page"></div>
+
+<script>
+  $(function () {
+    $("#error_page").load("error.html");
+  });
+</script>
+<!--end of Error Tab-->
+<div id="normalbody">
+    <!--Navigation bar-->
+
+    <div id="nav-placeholder"></div>
+
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
+    <h1 id="score_h1">Leaderboard...</h1>
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col-12 col-md-6">
+        <h2 class="game_heading">Snake</h2>
+    <table id="Snake">
+      <tr> 
+        <th id="s_no">S No.</th>
+        <th>Player's Name</th>
+        <th>Date</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td class="S-no">1</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+      <tr>
+        <td class="S-no">2</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+      <tr>
+        <td class="S-no">3</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+      <tr>
+        <td class="S-no">4</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+      <tr>
+        <td class="S-no">5</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+    </table>
+    </div>
+    <div class="col-12 col-md-6">
+      <h2 class="game_heading">Sudoku</h2>
+      <table id="Sudoku">
+        <tr> 
+          <th id="s_no">S No.</th>
+          <th>Player's Name</th>
+          <th>Date</th>
+          <th>Score</th>
+        </tr>
+        <tr>
+          <td class="S-no">1</td>
+          <td class="pname">---</td>
+          <td class="gdate">---</td>
+          <td class="pscore">--</td>
+        </tr>
+        <tr>
+          <td class="S-no">2</td>
+          <td class="pname">---</td>
+          <td class="gdate">---</td>
+          <td class="pscore">--</td>
+        </tr>
+        <tr>
+          <td class="S-no">3</td>
+          <td class="pname">---</td>
+          <td class="gdate">---</td>
+          <td class="pscore">--</td>
+        </tr>
+        <tr>
+          <td class="S-no">4</td>
+          <td class="pname">---</td>
+          <td class="gdate">---</td>
+          <td class="pscore">--</td>
+        </tr>
+        <tr>
+          <td class="S-no">5</td>
+          <td class="pname">---</td>
+          <td class="gdate">---</td>
+          <td class="pscore">--</td>
+        </tr>
+      </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-3"></div>
+      <div class="col-12 col-md-6">
+        <h2 class="game_heading">Colour Memory</h2>
+    <table id="ColourMemory">
+      <tr> 
+        <th id="s_no">S No.</th>
+        <th>Player's Name</th>
+        <th>Date</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td class="S-no">1</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+      <tr>
+        <td class="S-no">2</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+      <tr>
+        <td class="S-no">3</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+      <tr>
+        <td class="S-no">4</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+      <tr>
+        <td class="S-no">5</td>
+        <td class="pname">---</td>
+        <td class="gdate">---</td>
+        <td class="pscore">--</td>
+      </tr>
+    </table>
+    </div>
+    <div class="col-12 col-md-3"></div>
+    </div>
+
+    <!--Footer bar-->
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+      $(function () {
+        $("#footer-placeholder").load("footer.html");
+      });
+    </script>
+    <!--end of Footer bar-->
+    </div>
+  </body>
+</html>
