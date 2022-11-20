@@ -9,12 +9,8 @@ body {
   --color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--color);
-  background-color: #ff8585;
-  background: linear-gradient(
-    162deg,
-    rgba(255, 133, 133, 1) 0%,
-    rgba(227, 84, 95, 1) 100%
-  );
+  background-color: #EAEAEA !important;
+  
 }
 .row{
 margin: 0 !important;
@@ -23,7 +19,8 @@ margin: 0 !important;
 nav {
     padding: 1mm 2mm 1mm 3mm;
     margin-bottom: 1cm;
-   
+    background-color: #B2B2B2;
+    
   }
   
   a li.nav-item {
@@ -101,14 +98,20 @@ footer a:visited {
 
 .col-md-3 ul{
     list-style-type: thumbs;
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
 }
 .col-md-3{
     text-align: center;
+}
+.col-md-3 h1{
+    font-family: 'Rubik Marker Hatch', cursive;
 }
 .col-md-3 footer{
     margin-top: 3cm;
     font-size: xx-large;
     font-weight: bolder;
+    font-family: 'Rubik Marker Hatch', cursive;
    
 }
 
