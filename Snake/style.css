@@ -23,13 +23,13 @@ nav {
     
   }
   
-  a li.nav-item {
+  nav a li.nav-item {
     font-weight: bolder;
     font-size: 1.5rem;
     color: black;
     font-family: "Acme", sans-serif;
   }
-  a li.nav-item:hover {
+  nav a li.nav-item:hover {
     text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
   }
   
