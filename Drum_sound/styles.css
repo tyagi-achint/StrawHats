@@ -2,42 +2,37 @@ body {
   margin: 0%;
   background: -webkit-linear-gradient(#98ddca, #d5ecc2);
 }
-
 nav {
+  padding: 1mm 2mm 1mm 3mm;
+}
 
-    padding: 1mm 2mm 1mm 3mm;
-    border-bottom: #d7d7d7 0.1mm solid;
-  }
-  
-  a li.nav-item {
-    font-weight: bolder;
-    font-size: 1.5rem;
-    color: black;
-    font-family: "Acme", sans-serif;
-  }
-  a li.nav-item:hover {
-    text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
-  }
-  
-  .navbar-ul2 li {
-    padding-left: 0.2cm;
-  }
+a li.nav-item {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: black;
+  font-family: "Acme", sans-serif;
+}
+a li.nav-item:hover {
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
 
+.navbar-ul2 li {
+  padding-left: 0.2cm;
+}
 .heading {
   text-align: center;
   font-family: "Pacifico", cursive;
   color: #053742;
   text-shadow: 3px 0 #f54748;
   font-size: 2cm;
-  margin-top: 1cm;
-  padding: 1.5cm 0;
+  padding: 7mm 0 5mm 0;
 }
 
 footer {
   font-family: "Acme", sans-serif;
   text-align: center;
   color: #231e23;
-  padding: 1.5cm 0;
+  
 }
 
 .w {
@@ -70,7 +65,7 @@ footer {
 
 .row {
   margin: 1cm 8mm;
-  padding: 1cm;
+  padding: 8mm;
 }
 
 .pressed {
