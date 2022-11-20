@@ -2,11 +2,44 @@ body {
   text-align: center;
   background-color: #011f3f;
 }
+nav {
+  padding: 2mm 3mm 1mm 3mm;
+}
+
+nav a li.nav-item {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Acme", sans-serif;
+  padding-right: 5mm;
+}
+nav a li.nav-item:hover {
+  text-shadow: 1px 3px rgba(255, 254, 254, 0.471);
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+}
+nav li {
+  float: left;
+}
+nav .navbar-ul2{
+float: right;
+}
+nav a{
+  text-decoration: none;
+  display: block;
+}
 
 #level-title {
   font-family: "Press Start 2P", cursive;
-  font-size: 3rem;
-  margin: 5%;
+  font-size: 9mm;
+  margin: 2cm 0 1cm 0 ;
   color: #fef2bf;
 }
 
