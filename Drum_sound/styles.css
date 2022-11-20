@@ -3,6 +3,26 @@ body {
   background: -webkit-linear-gradient(#98ddca, #d5ecc2);
 }
 
+nav {
+
+    padding: 1mm 2mm 1mm 3mm;
+    border-bottom: #d7d7d7 0.1mm solid;
+  }
+  
+  a li.nav-item {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: black;
+    font-family: "Acme", sans-serif;
+  }
+  a li.nav-item:hover {
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-ul2 li {
+    padding-left: 0.2cm;
+  }
+
 .heading {
   text-align: center;
   font-family: "Pacifico", cursive;
