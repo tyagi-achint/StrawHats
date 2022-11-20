@@ -2,7 +2,7 @@
 import turtle
 import time
 import random
-
+import pygame 
 delay = 0.1
 score = 0
 high_score = 0
