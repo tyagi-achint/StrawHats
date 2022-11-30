@@ -1,4 +1,5 @@
-
+var pname1 = prompt("Enter Player 1 name");
+var pname2 = prompt("Enter Player 2 name");
                 // game parameters
                 const DELAY_END = 2; // seconds until a new game starts
                 const FPS = 30; // frames per second
@@ -23,9 +24,9 @@
                 const COLOR_TIE = "black";
         
                 // text
-                 const TEXT_COMP = "Player 2";
+                 const TEXT_COMP = pname1;
                  const TEXT_COMP_SML = "";
-                 const TEXT_PLAY = "Player 1";
+                 const TEXT_PLAY = pname2;
                  const TEXT_PLAY_SML = "";
                 const TEXT_SIZE_CELL = CELL / 3;
                 const TEXT_SIZE_TOP = MARGIN / 6;
