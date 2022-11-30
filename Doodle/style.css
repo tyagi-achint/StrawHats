@@ -1,0 +1,62 @@
+
+  canvas {
+    display: block;
+    margin-left:11cm;
+  }
+  
+  html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  --size: 15px;
+  --color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color);
+  background-color: #EAEAEA !important;
+  
+}
+
+
+nav {
+    padding: 1mm 2mm 1mm 3mm;
+margin-bottom: 5mm;
+    background-color: #B2B2B2;
+    
+  }
+  
+  a li.nav-item {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: black;
+    font-family: "Acme", sans-serif;
+  }
+  a li.nav-item:hover {
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-ul2 li {
+    padding-left: 0.2cm;
+  }
+
+
+.col-md-3 ul{
+    list-style-type: thumbs;
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
+}
+.col-md-3{
+    text-align: center;
+}
+.col-md-3 h1{
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+.col-md-3 footer{
+    margin-top: 3cm;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Rubik Marker Hatch', cursive;
+   
+}
