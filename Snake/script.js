@@ -1,4 +1,4 @@
-
+var pname = prompt("Enter Your name");
 
 window.addEventListener("DOMContentLoaded", function (event) {
   window.focus(); 
