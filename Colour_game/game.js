@@ -1,3 +1,4 @@
+var pname = prompt("Enter Your name");
 var gamePattern = [];
 var userClickedPattern = [];
 var buttonColours = ["red", "blue", "green", "yellow"];
